@@ -5,6 +5,10 @@ Code for our MICCAI 2021 paper: *Patch-free 3D Medical Image Segmentation Driven
 
 This is an end-to-end patch-free segmentation framework realizing HR segmentation with LR input. Our method uses Multi-task Learning as fundation and involves TFM and SGM to help HR restoration. SGM uses a representative HR patch to keep some HR information, and similar to multitask-learning, SGMs for US and SR also share the weights, in order for the segmentation task benefiting from the Self-Supervised Guidance Loss. TFM integrate the two tasks together and exploite the inter connections between the two tasks. In our experiments, our method outperforms the patch-based methods as well as has a four times higher inference speed.
 
+Links to related further works:
+- [PFSeg-ABR](https://github.com/Dootmaan/PFSeg-ABR)
+- [PFSeg-Full](https://github.com/Dootmaan/PFSeg-Full)
+
 ## 1. Prepare your dataset
 Please follow the instructions on http://braintumorsegmentation.org/ to get your copy of the BRATS2020 dataset. 
 
